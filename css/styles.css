@@ -3321,9 +3321,9 @@ a.my-dino-ar-title {
 
 .paws-main-left {
     position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
+    top: 260px;
+    left: -1250px;
+    right: 0;
     margin: auto;
     width: 644px;
     height: 554px;
@@ -3333,9 +3333,9 @@ a.my-dino-ar-title {
 
 .paws-main-right {
     position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
+    top: 240px;
+    left: 0;
+    right: -1300px;
     margin: auto;
     width: 494px;
     height: 649px;
@@ -3435,7 +3435,7 @@ a.my-dino-ar-title {
     right: 0;
     margin: auto;
     width: 100%;
-    height: 655px;
+    height: 100%;
     background: url(../img/steps-bg.png) center 0 no-repeat;
     background-size: 100% 100%;
 }

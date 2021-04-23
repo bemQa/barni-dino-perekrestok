@@ -2558,95 +2558,6 @@ a.my-dino-ar-title {
     image-rendering: -webkit-optimize-contrast;
 }
 
-.steps-block {
-    position: relative;
-    margin-bottom: 50px;
-}
-
-.steps-block::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -1500px;
-    right: -1500px;
-    margin: auto;
-    width: 2824px;
-    height: 1000px;
-    background: #F0F835;
-    border-radius: 50%;
-}
-
-.steps-block .container {
-    max-width: 1230px;
-}
-
-.steps {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1054px;
-    width: 100%;
-    margin: auto;
-    padding-top: 150px;
-}
-
-.step.step1 {
-    width: 339px;
-    height: 412px;
-    margin-top: 15px;
-    padding-top: 210px;
-    background: url(../img/step1.png) center no-repeat;
-    background-size: contain;
-}
-
-.step.step2 {
-    width: 339px;
-    height: 381px;
-    padding-top: 165px;
-    background: url(../img/step2.png) center no-repeat;
-    background-size: contain;
-}
-
-.step.step3 {
-    width: 376px;
-    height: 422px;
-    margin-top: 40px;
-    padding-top: 245px;
-    background: url(../img/step3.png) center no-repeat;
-    background-size: contain;
-}
-
-.step-title {
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 1.1;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFEE00;
-}
-
-.step-text {
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 1.2;
-    text-align: center;
-    text-transform: uppercase;
-    color: #fff;
-}
-
-.main-btn-wrapper {
-    display: flex;
-    -ms-align-items: center;
-    align-items: center;
-    justify-content: center;
-}
-
-.main-btn {
-    display: inline-flex;
-    max-width: 500px;
-    width: auto;
-    padding: 22px 20px;
-}
-
 .how-to-block {
     position: relative;
     padding: 40px 0 60px;
@@ -3386,6 +3297,240 @@ a.my-dino-ar-title {
 
 .tooltip-qr-text a {
     color: #2FBBE5;
+}
+
+.vr-steps-block {
+    position: relative;
+    min-height: 560px;
+    margin-bottom: 50px;
+    padding-top: 230px;
+}
+
+.vr-steps-block::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -1500px;
+    right: -1500px;
+    margin: auto;
+    width: 2824px;
+    height: 1130px;
+    background: #14592D;
+    border-radius: 50%;
+}
+
+.paws-main-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 644px;
+    height: 554px;
+    background: url(../img/paws-main-left.png) center no-repeat;
+    background-size: contain;
+}
+
+.paws-main-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 494px;
+    height: 649px;
+    background: url(../img/paws-main-right.png) center no-repeat;
+    background-size: contain;
+}
+
+.vr-steps-block .container {
+    max-width: 1230px;
+}
+
+.vr-steps-title {
+    font-family: 'Tobi';
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 84px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F0F835;
+}
+
+.vr-steps {
+    display: flex;
+    justify-content: space-between;
+    max-width: 630px;
+    width: 100%;
+    margin: 0 auto 50px;
+}
+
+.vr-step {
+    position: relative;
+    padding-top: 250px;
+}
+
+.vr-step-img {
+    position: absolute;
+    top: 0;
+    left: -100px;
+    right: -100px;
+    bottom: 0;
+    margin: auto;
+}
+
+.vr-step.step1 .vr-step-img {
+    top: -30px;
+    width: 432px;
+}
+
+.vr-step.step2 .vr-step-img {
+    top: -40px;
+    width: 394px;
+}
+
+.vr-step-num {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 58px;
+    height: 58px;
+}
+
+.vr-step.step1 .vr-step-num {
+    background: url(../img/vr-step-num1.svg) center no-repeat;
+    background-size: contain;
+}
+
+.vr-step.step2 .vr-step-num {
+    background: url(../img/vr-step-num2.svg) center no-repeat;
+    background-size: contain;
+}
+
+.vr-step-title {
+    position: relative;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.vr-step-title span {
+    color: #7AC916;
+}
+
+.steps-block {
+    position: relative;
+    padding: 55px 0 60px;
+    z-index: 1;
+}
+
+.steps-block::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 655px;
+    background: url(../img/steps-bg.png) center 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.steps-block::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 200px;
+    background: #fff;
+    z-index: -1;
+}
+
+.steps-block .container {
+    max-width: 1230px;
+}
+
+.steps-title {
+    font-family: 'Tobi';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 1.1;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2FBBE5;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1054px;
+    width: 100%;
+    margin: 25px auto 0;
+}
+
+.step.step1 {
+    width: 339px;
+    height: 412px;
+    margin-top: 15px;
+    padding-top: 210px;
+    background: url(../img/step1.png) center no-repeat;
+    background-size: contain;
+}
+
+.step.step2 {
+    width: 339px;
+    height: 381px;
+    padding-top: 165px;
+    background: url(../img/step2.png) center no-repeat;
+    background-size: contain;
+}
+
+.step.step3 {
+    width: 376px;
+    height: 422px;
+    margin-top: 40px;
+    padding-top: 245px;
+    background: url(../img/step3.png) center no-repeat;
+    background-size: contain;
+}
+
+.step-title {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1.1;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFEE00;
+}
+
+.step-text {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.main-btn-wrapper {
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-btn {
+    display: inline-flex;
+    max-width: 500px;
+    width: auto;
+    padding: 22px 20px;
 }
 
 @media (max-width: 1366px) {

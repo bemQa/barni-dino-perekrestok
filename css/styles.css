@@ -4063,37 +4063,9 @@ a.my-dino-ar-title {
         left: -300px;
         right: -300px;
         width: 675px;
-        height: 647px;
+        height: 731px;
         background: url(../img/kv-mob.png) center 0 no-repeat;
         background-size: 675px;
-    }
-
-    .steps-block {
-        margin-bottom: 45px;
-    }
-
-    .steps-block::before {
-        height: 1600px;
-    }
-
-    .steps {
-        flex-direction: column;
-        -ms-align-items: center;
-        align-items: center;
-        padding-top: 215px;
-    }
-
-    .step.step1 {
-        margin-top: 0;
-    }
-
-    .step.step3 {
-        margin-top: 0;
-    }
-
-    .main-btn {
-        max-width: 300px;
-        font-size: 18px;
     }
 
     .how-to-block {
@@ -4316,6 +4288,72 @@ a.my-dino-ar-title {
     .get-prize::after {
         top: -40px;
     }
+
+    .vr-steps-block {
+        padding-top: 310px;
+    }
+
+    .vr-steps-block::before {
+        height: 1400px;
+    }
+
+    .vr-steps-title {
+        font-size: 46px;
+        line-height: 55px;
+    }
+
+    .vr-steps {
+        flex-direction: column;
+        -ms-align-items: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .vr-step-num {
+        left: -150px;
+        right: 0;
+        margin: auto;
+    }
+
+    .steps-block {
+        padding: 45px 0 30px;
+    }
+
+    .steps-block::before {
+        width: 100%;
+        height: 1600px;
+        background: url(../img/steps-bg-mob.png) center 0 no-repeat;
+        background-size: cover;
+    }
+
+    .steps-block::after {
+        display: none;
+    }
+
+    .steps {
+        flex-direction: column;
+        -ms-align-items: center;
+        align-items: center;
+    }
+
+    .step.step1 {
+        margin-top: 0;
+    }
+
+    .step.step3 {
+        margin-top: 0;
+    }
+
+    .main-btn-wrapper {
+        display: flex !important;
+    }
+
+    .main-btn {
+        max-width: 310px;
+        width: 100%;
+        height: 100px;
+        padding: 22px 10px;
+    }
 }
 
 @media (max-width: 375px) {
@@ -4346,6 +4384,19 @@ a.my-dino-ar-title {
 
     .lk-table td:nth-child(3) {
         min-width: 90px;
+    }
+
+    .vr-steps-title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .steps-title {
+        font-size: 36px;
+    }
+
+    .main-btn {
+        font-size: 24px;
     }
 }
 
